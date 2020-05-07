@@ -5,7 +5,7 @@
 using namespace winrt;
 using namespace Windows::UI::Xaml;
 
-namespace winrt::MyApp::implementation
+namespace winrt::Contoso::Xaml::implementation
 {
     App::App()
     {

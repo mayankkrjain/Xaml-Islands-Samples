@@ -1,4 +1,4 @@
-namespace MyApp
+namespace Contoso.Xaml
 {
     [default_interface]
     runtimeclass App: Microsoft.Toolkit.Win32.UI.XamlHost.XamlApplication

@@ -7,7 +7,7 @@ namespace Contoso.App
         public MainUserControl(Interop.IMainFormInterop mainFormInterop)
         {
             InitializeComponent();
-            this.Child = new MyApp.MainUserControl(mainFormInterop);
+            this.Child = new Xaml.MainUserControl(mainFormInterop);
         }
     }
 }

@@ -11,7 +11,7 @@ namespace Contoso.App
         [STAThread]
         static void Main()
         {
-            using(new MyApp.App())
+            using(new Xaml.App())
             {
                 Application.SetHighDpiMode(HighDpiMode.PerMonitorV2);
                 Application.EnableVisualStyles();

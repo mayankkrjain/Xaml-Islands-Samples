@@ -1,4 +1,4 @@
-namespace MyApp
+namespace Contoso.Xaml
 {
     [default_interface]
     runtimeclass MainUserControl : Windows.UI.Xaml.Controls.UserControl

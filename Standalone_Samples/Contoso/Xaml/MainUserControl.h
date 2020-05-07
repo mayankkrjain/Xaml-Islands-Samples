@@ -10,7 +10,7 @@
 #include "MainUserControl.g.h"
 #include <winrt/Contoso.Interop.h>
 
-namespace winrt::MyApp::implementation
+namespace winrt::Contoso::Xaml::implementation
 {
     struct MainUserControl : MainUserControlT<MainUserControl>
     {
@@ -22,7 +22,7 @@ namespace winrt::MyApp::implementation
     };
 }
 
-namespace winrt::MyApp::factory_implementation
+namespace winrt::Contoso::Xaml::factory_implementation
 {
     struct MainUserControl : MainUserControlT<MainUserControl, implementation::MainUserControl>
     {

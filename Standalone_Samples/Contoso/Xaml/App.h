@@ -5,10 +5,11 @@
 #pragma once
 
 #include "App.g.h"
-#include "App.base.h"
 
-namespace winrt::MyApp::implementation
+namespace winrt::Contoso::Xaml::implementation
 {
+    #include "App.base.h"
+
     class App : public AppT2<App>
     {
     public:
@@ -17,7 +18,7 @@ namespace winrt::MyApp::implementation
     };
 }
 
-namespace winrt::MyApp::factory_implementation
+namespace winrt::Contoso::Xaml::factory_implementation
 {
     class App : public AppT<App, implementation::App>
     {

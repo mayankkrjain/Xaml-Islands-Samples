@@ -25,15 +25,15 @@
   </trustInfo>
   <asmv3:file name="Contoso.Xaml.dll">
     <activatableClass
-        name="MyApp.App"
+        name="Contoso.Xaml.App"
         threadingModel="both"
         xmlns="urn:schemas-microsoft-com:winrt.v1" />
     <activatableClass
-        name="MyApp.XamlMetadataProvider"
+        name="Contoso.Xaml.XamlMetadataProvider"
         threadingModel="both"
         xmlns="urn:schemas-microsoft-com:winrt.v1" />
     <activatableClass
-        name="MyApp.MainUserControl"
+        name="Contoso.Xaml.MainUserControl"
         threadingModel="both"
         xmlns="urn:schemas-microsoft-com:winrt.v1" />
   </asmv3:file>
