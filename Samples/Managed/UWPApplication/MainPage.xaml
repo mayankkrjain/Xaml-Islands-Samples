@@ -4,6 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Samples.ManagedUWP"
     xmlns:component="using:UILibrary.Controls"
+    xmlns:controls="using:UIControls.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
@@ -41,5 +42,6 @@
             </ScrollViewer>
         </NavigationView>
         <component:CustomControl Grid.Row="1" Content="Custom Button" Margin="10,100" Height="50" Width="100" VerticalAlignment="Top" />
+        <controls:CustomControl />
     </Grid>
 </UserControl>

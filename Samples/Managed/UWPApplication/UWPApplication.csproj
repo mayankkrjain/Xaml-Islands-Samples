@@ -330,6 +330,10 @@
       <Project>{c3969d6c-706f-4aec-93a2-bf9d3c9c459c}</Project>
       <Name>Native_SwapChainPanel_Comp</Name>
     </ProjectReference>
+    <ProjectReference Include="..\UIControls\UIControls.csproj">
+      <Project>{f3cc5e73-3fdb-4977-80c0-a366bb1a92a8}</Project>
+      <Name>UIControls</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UILibrary\UILibrary.csproj">
       <Project>{2d221641-373c-4532-8bce-d9e251e123e3}</Project>
       <Name>UILibrary</Name>
